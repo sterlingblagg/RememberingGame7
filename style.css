@@ -1,0 +1,120 @@
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	display: block;
+}
+
+p {
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 150%;
+	text-shadow: -2px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+	color: #FFFFFF;
+a {
+}
+
+.column {
+	height: 100%;
+	width: calc(100%/3);
+	display: block;
+}
+
+.links {
+	height: 100%;
+	width: calc(100%/3);
+	display: flex;
+}
+
+.content {
+	height: 50%;
+	width: 100%;
+	display: flex;
+}
+
+.column-space {
+	height: 90%;
+	width: 100%;
+	display: flex;
+}
+
+.link-space {
+	height: 10%;
+	width: 100%;
+	display: flex;
+}
+
+/* Here, we have our colors that will be used throughout the web page. */
+
+.purple {
+	background-color: #552583;
+}
+
+.purpleswap {
+	background-color: #552583;
+}
+
+.gold {
+	background-color: #FDB927;
+}
+
+.goldswap {
+	background-color: #FDB927;
+}
+
+.red {
+	background-color: #C9082A;
+}
+
+.darkred {
+	background-color: #B20723;
+}
+
+/* Here, we have the image resizing/aligning classes. */
+
+.align {
+	justify-content: center;
+	align-items: center;
+}
+
+.contain-image {
+	max-height: 90%;
+	max-width: 90%;
+}
+
+@media screen and (max-width: 600px) {	
+body {
+	height: 167%;
+}
+
+.column-space {
+	display: block;
+}
+.link-space {
+	display: block;
+}
+.links {
+	height: calc(100%/3);
+	width: 100%;
+}
+.column {
+	height: calc(100%/3);
+	width: 100%;
+}
+
+.purpleswap {
+	background-color: #FDB927;
+}
+
+.goldswap {
+	background-color: #552583;
+}
+
+.contain-image {
+	max-height: 95%;
+	max-width: 95%;
+}
+
+}
