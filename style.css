@@ -8,8 +8,9 @@ body {
 p {
 	color: #FFFFFF;
 	text-align: center;
-	font-size: 150%;
-	text-shadow: -2px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	font-family: 'sportsFont', sans-serif;
+	font-size: 148%;
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 }
 
 a {
@@ -82,6 +83,15 @@ a {
 .contain-image {
 	max-height: 90%;
 	max-width: 90%;
+}
+
+/* In this code, we are calling upon a custom font to use for our website. */
+
+@font-face {
+	font-family: 'sportsFont';
+	src: 
+		url('fonts/oldsport.ttf');
+		format('opentype');
 }
 
 @media screen and (max-width: 600px) {	
