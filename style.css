@@ -7,6 +7,15 @@ body {
 
 p {
 	color: #FFFFFF;
+	overflow: auto;
+	text-align: center;
+	font-family: 'sportsFont', sans-serif;
+	font-size: 148%;
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+h1 {
+	color: #FFFFFF;
 	text-align: center;
 	font-family: 'sportsFont', sans-serif;
 	font-size: 148%;
@@ -98,6 +107,10 @@ a {
 body {
 	height: 167%;
 }
+h1 {
+	font-size: 110%;
+}
+
 
 .column-space {
 	display: block;
