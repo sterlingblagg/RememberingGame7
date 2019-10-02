@@ -27,21 +27,25 @@ a {
 }
 
 .column {
-	height: 100%;
+	height: calc(100% - 1px);
 	width: calc(100%/3);
 	display: block;
 }
 
 .links {
-	height: 100%;
-	width: calc(100%/3);
+	height: calc(100% - 2px);
+	width: calc(100%/3 - 1px);
 	display: flex;
+	border-style: solid;
+	border-width: 1px;
 }
 
 .content {
 	height: 50%;
-	width: 100%;
+	width: calc(100%-1px);
 	display: flex;
+	border-style: solid;
+	border-width: 1px;
 }
 
 .column-space {
