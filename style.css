@@ -5,6 +5,9 @@ body {
 	display: block;
 }
 
+/* The text shadow seen within both of the text classes allows the text to be easily
+readable on the purple and gold surfaces. */
+
 p {
 	color: #FFFFFF;
 	overflow: auto;
@@ -25,6 +28,14 @@ h1 {
 a {
 	color: #FFFFFF;
 }
+
+/* In the div classes below, there is extended usage of the calc function. Using the 
+normal calc function, you can subtract specific pixel amounts in order to make the 
+borders fit without creating an unnecessary scroll wheel both horizontally and 
+vertically on the desktop layout. Speaking of the border, it is a thin 1 px black 
+border set on links and content with a solid border style in order to break up the
+transition between the purple and the gold and make the website look more fluid
+afterall. */
 
 .column {
 	height: calc(100% - 1px);
@@ -60,7 +71,10 @@ a {
 	display: flex;
 }
 
-/* Here, we have our colors that will be used throughout the web page. */
+/* Here, we have our colors that will be used throughout the web page. 
+In order to properly manage our layout, we had to get creative and make two extra color 
+classes 'goldswap' and 'purpleswap' in order to modify/change with the media query 
+coming later in the code. */
 
 .purple {
 	background-color: #552583;
@@ -86,7 +100,8 @@ a {
 	background-color: #B20723;
 }
 
-/* Here, we have the image resizing/aligning classes. */
+/* Here, we have the image resizing/aligning classes. These classes allow us to keep our 
+images centered and not be too large. */
 
 .align {
 	justify-content: center;
@@ -98,7 +113,11 @@ a {
 	max-width: 90%;
 }
 
-/* In this code, we are calling upon a custom font to use for our website. */
+/* In this code, we are calling upon a custom font to use for our website. 
+Using this allows us to have an extra layer of depth in the website overall because of 
+the difference from most normal fonts in the database by deviating from Google Fonts 
+and heading to multiple different websites in order to find the best basketball-themed 
+font we could. */
 
 @font-face {
 	font-family: 'sportsFont';
